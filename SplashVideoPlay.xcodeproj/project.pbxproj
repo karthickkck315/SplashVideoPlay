@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		77D55A5420AAE24000ADB263 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D55A5320AAE24000ADB263 /* AppDelegate.swift */; };
-		77D55A5620AAE24000ADB263 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D55A5520AAE24000ADB263 /* ViewController.swift */; };
 		77D55A5920AAE24000ADB263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D55A5720AAE24000ADB263 /* Main.storyboard */; };
 		77D55A5B20AAE24000ADB263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77D55A5A20AAE24000ADB263 /* Assets.xcassets */; };
 		77D55A5E20AAE24000ADB263 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D55A5C20AAE24000ADB263 /* LaunchScreen.storyboard */; };
+		77D55A6620AAE24800ADB263 /* Bunny.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 77D55A6520AAE24800ADB263 /* Bunny.mp4 */; };
+		77D55A6820AAE25000ADB263 /* VideoPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D55A6720AAE25000ADB263 /* VideoPlay.swift */; };
+		77D55A6A20AAE60F00ADB263 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D55A6920AAE60F00ADB263 /* HomePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		77D55A5020AAE24000ADB263 /* SplashVideoPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplashVideoPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77D55A5320AAE24000ADB263 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		77D55A5520AAE24000ADB263 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		77D55A5820AAE24000ADB263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77D55A5A20AAE24000ADB263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77D55A5D20AAE24000ADB263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77D55A5F20AAE24000ADB263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77D55A6520AAE24800ADB263 /* Bunny.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bunny.mp4; sourceTree = "<group>"; };
+		77D55A6720AAE25000ADB263 /* VideoPlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlay.swift; sourceTree = "<group>"; };
+		77D55A6920AAE60F00ADB263 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		77D55A5220AAE24000ADB263 /* SplashVideoPlay */ = {
 			isa = PBXGroup;
 			children = (
+				77D55A6720AAE25000ADB263 /* VideoPlay.swift */,
+				77D55A6520AAE24800ADB263 /* Bunny.mp4 */,
 				77D55A5320AAE24000ADB263 /* AppDelegate.swift */,
-				77D55A5520AAE24000ADB263 /* ViewController.swift */,
 				77D55A5720AAE24000ADB263 /* Main.storyboard */,
 				77D55A5A20AAE24000ADB263 /* Assets.xcassets */,
 				77D55A5C20AAE24000ADB263 /* LaunchScreen.storyboard */,
 				77D55A5F20AAE24000ADB263 /* Info.plist */,
+				77D55A6920AAE60F00ADB263 /* HomePage.swift */,
 			);
 			path = SplashVideoPlay;
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D55A6620AAE24800ADB263 /* Bunny.mp4 in Resources */,
 				77D55A5E20AAE24000ADB263 /* LaunchScreen.storyboard in Resources */,
 				77D55A5B20AAE24000ADB263 /* Assets.xcassets in Resources */,
 				77D55A5920AAE24000ADB263 /* Main.storyboard in Resources */,
@@ -136,7 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77D55A5620AAE24000ADB263 /* ViewController.swift in Sources */,
+				77D55A6820AAE25000ADB263 /* VideoPlay.swift in Sources */,
+				77D55A6A20AAE60F00ADB263 /* HomePage.swift in Sources */,
 				77D55A5420AAE24000ADB263 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
